@@ -239,3 +239,8 @@ body {
   }
 
 }
+
+/* Extra spacing below destination radio options */
+.govuk-radios {
+  margin-bottom: 10px;
+}

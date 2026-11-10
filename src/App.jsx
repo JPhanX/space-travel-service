@@ -39,9 +39,9 @@ const [postcode, setPostcode] = useState("");
               Space travel service
             </h1>
 
-      <p className="govuk-body-l">
+  <p className="govuk-body">
   Apply to travel to The Moon or Mars using our space travel programme.
-</p>
+            </p>
 
 
 
@@ -460,7 +460,7 @@ const [postcode, setPostcode] = useState("");
           Your chosen destination is <strong>{destination}</strong>.
         </p>
    <p className="govuk-body">
-We will contact you with further information about your application. Your reference number is ABC123       </p>
+We will contact you with further information about your application. Your reference number is ABC123.       </p>
 
         <p className="govuk-body">
           Thank you for using the Space travel service.
