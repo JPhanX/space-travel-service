@@ -1,0 +1,152 @@
+
+/* GOV.UK basic page styling */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "GDS Transport", Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.31579;
+  color: #0b0c0c;
+  background-color: #ffffff;
+}
+
+.gov-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+/* GOV.UK header */
+
+.gov-header {
+  background-color: #0b0c0c;
+  color: white;
+  padding: 15px 0;
+  border-bottom: 10px solid #1d70b8;
+}
+
+.gov-logo {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.gov-header p {
+  font-size: 14px;
+  margin: 3px 0 0;
+}
+
+/* Service name */
+
+.service-header {
+  background-color: #f3f2f1;
+  padding: 15px 0;
+  font-weight: bold;
+  border-bottom: 1px solid #b1b4b6;
+}
+
+/* Main content */
+
+.main-content {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  min-height: 600px;
+}
+
+.content-width {
+  max-width: 640px;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.1;
+  margin: 0 0 30px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.intro {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Start button */
+
+.gov-button {
+  background-color: #00703c;
+  color: white;
+  border: 0;
+  border-radius: 0;
+  padding: 12px 20px 10px;
+  font-size: 19px;
+  font-weight: bold;
+  font-family: inherit;
+  cursor: pointer;
+  box-shadow: 0 2px 0 #002d18;
+  margin-top: 15px;
+}
+
+.gov-button:hover {
+  background-color: #005a30;
+}
+
+.gov-button:focus {
+  outline: 3px solid transparent;
+  color: #0b0c0c;
+  background-color: #ffdd00;
+  box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
+}
+
+/* Hint text */
+
+.hint {
+  font-size: 16px;
+  color: #505a5f;
+  margin-top: 20px;
+}
+
+/* Footer */
+
+.gov-footer {
+  background-color: #f3f2f1;
+  border-top: 1px solid #b1b4b6;
+  padding: 35px 0;
+  font-size: 16px;
+  color: #505a5f;
+}
+
+@media (max-width: 640px) {
+  .gov-container {
+    padding: 0 15px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  .main-content {
+    padding-top: 25px;
+  }
+}

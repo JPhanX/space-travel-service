@@ -1,0 +1,241 @@
+
+/* =================================
+   PAGE DEFAULTS
+================================= */
+
+html {
+  background: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #0b0c0c;
+  background: #ffffff;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* =================================
+   GOV.UK HEADER
+================================= */
+
+.govuk-header {
+  background-color: #0b0c0c !important;
+  color: #ffffff;
+  border-bottom: 10px solid #1d70b8;
+}
+
+.custom-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.custom-gov-logo {
+  color: #ffffff !important;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.custom-service-name {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* =================================
+   MAIN CONTENT - ALL FIVE PAGES
+================================= */
+
+.govuk-width-container {
+  width: auto;
+}
+
+/* Main page headings */
+
+.govuk-heading-xl {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+/* Section headings */
+
+.govuk-heading-m {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* Introductory text */
+
+.govuk-body-l {
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* Standard paragraphs */
+
+.govuk-body {
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* =================================
+   FORM FIELDS
+================================= */
+
+.govuk-form-group {
+  margin-bottom: 25px;
+}
+
+.govuk-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.govuk-input {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 40px;
+  padding: 5px 10px;
+  border: 2px solid #0b0c0c;
+  font-family: Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.25;
+}
+
+/* =================================
+   DESTINATION RADIO BUTTONS
+================================= */
+
+.govuk-radios__item {
+  margin-bottom: 10px;
+}
+
+/* =================================
+   BUTTONS - ALL FIVE PAGES
+================================= */
+
+.govuk-button {
+  display: inline-block;
+  box-sizing: border-box;
+  min-height: 40px;
+  padding: 8px 15px;
+  margin-top: 15px;
+  margin-bottom: 60px;
+  border: 0;
+  background-color: #00703c;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.25;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 2px 0 #002d18;
+}
+
+.govuk-button:hover {
+  background-color: #005a30;
+}
+
+.govuk-button:focus {
+  outline: 3px solid transparent;
+  color: #0b0c0c;
+  background-color: #ffdd00;
+  box-shadow: 0 2px 0 #0b0c0c;
+}
+
+.govuk-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* =================================
+   BACK LINKS
+================================= */
+
+.govuk-back-link {
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+/* =================================
+   CHECK YOUR ANSWERS
+================================= */
+
+.govuk-summary-list {
+  margin-bottom: 30px;
+}
+
+.govuk-summary-list__row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* =================================
+   CONFIRMATION PAGE
+================================= */
+
+.govuk-panel--confirmation {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
+/* =================================
+   FOOTER
+================================= */
+
+.footer-blue-strip {
+  height: 10px;
+  background-color: #1d70b8;
+  width: 100%;
+}
+
+.govuk-footer {
+  background-color: #f3f2f1;
+  border-top: 1px solid #b1b4b6;
+  padding: 40px 0;
+  margin-top: 0;
+}
+
+.govuk-footer__link {
+  color: #0b0c0c;
+}
+
+/* =================================
+   MOBILE ADJUSTMENTS
+================================= */
+
+@media (max-width: 640px) {
+
+  .custom-service-name {
+    font-size: 17px;
+  }
+
+  .custom-gov-logo {
+    font-size: 24px;
+  }
+
+  .govuk-heading-xl {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .govuk-panel--confirmation {
+    padding: 20px;
+  }
+
+}
