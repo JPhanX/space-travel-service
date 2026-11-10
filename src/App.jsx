@@ -40,7 +40,7 @@ const [postcode, setPostcode] = useState("");
             </h1>
 
       <p className="govuk-body-l">
-  Apply to travel to the Moon or Mars using our space travel programme.
+  Apply to travel to The Moon or Mars using our space travel programme.
 </p>
 
 
